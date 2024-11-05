@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.home {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: 92% 100%;
+    width: 100%;
+    height: 87vh;
+    margin-bottom: 150px;
+    position: relative;
+}
+
+.two_back {
+    background: url(../img/header-graphics.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: 78% 125%;
+    background-size: 40%;
+    height: 100%;
+}
+
+.home__container {
+    width: 62%;
+    margin: 0 auto;
+}
+
+.home__main-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home__main-box h1 {
+    font-family: "Playfair Display", serif;
+    color: white;
+    font-size: 7rem;
+    line-height: 100px;
+}
+
+.home__contain {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+
+.home__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+}
+
+.home__p {
+    width: 43%;
+}
+
+.home__btn {
+    background-color: #0C344A;
+    color: white;
+    padding: 1.3rem 2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 23%;
+    font-weight: 600;
+}
+
+.home__aobut-text {
+    color: white;
+    font-weight: 300;
+}
+
+.scroll__down {
+    position: absolute;
+    bottom: 80px;
+    font-weight: 300;
+    right: 0px;
+    color: #62698F;
+    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+}
+
+.scroll__down div {
+    height: 0.3px;
+    width: 60px;
+    background-color: #C4C4C4;
+}

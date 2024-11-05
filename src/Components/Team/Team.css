@@ -1,0 +1,54 @@
+.team-conatiner {
+    width: 62%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.team-conatiner h1 {
+    color: #0C344A;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 150px;
+}
+
+.team-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-name {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.team-card h3 {
+    color: #0C344A;
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-size: 27px;
+    font-family: "Playfair Display", serif;
+}
+
+.team-card p {
+    color: #62698F;
+    font-weight: 300;
+}
+
+.back-image {
+    width: 300px;
+    height: 300px;
+    background-color: #E3F0EF;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.back-image img {
+    position: absolute;
+    width: 73%;
+}

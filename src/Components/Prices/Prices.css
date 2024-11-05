@@ -1,0 +1,159 @@
+.prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.prices-heading {
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.prices-cards {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    width: 50.5%;
+}
+
+
+.prices-card {
+    display: flex;
+    flex-direction: column;
+    width: 48.2%;
+    padding: 32px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+}
+
+.prices-card h3 {
+    font-size: 30px;
+    color: #22C5BB;
+    font-weight: bold;
+    width: 60px;
+    height: 60px;
+    background-color: #22C5BB1A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.monthly-recipes {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.monthly-recipes p {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    color: #0C344A;
+}
+
+.price {
+    margin-block: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.dollar {
+    font-size: 30px;
+    color: #0C344A;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.price-cena {
+    font-size: 70px;
+    color: #0C344A;
+    font-weight: 700;
+}
+
+.price-cena::after {
+    content: '.99';
+    font-size: 30px;
+    color: #0C344A;
+    margin-right: 10px;
+}
+
+.motnth-text {
+    color: #62698F;
+    margin-top: 35px;
+}
+
+.check-icon {
+    color: #22C5BB;
+}
+
+.prices-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.prices-info p {
+    display: flex;
+    gap: 8px;
+    color: #62698F;
+    align-items: center;
+}
+
+.prices-btn {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0;
+    border-radius: 25px;
+    border: 0;
+    background-color: #22C5BB;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.plan-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.plan-text {
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    border-block: 0.5px solid #C4C4C4;
+}
+
+.contact-info div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+    font-size: 13px;
+    padding: 15px;
+}
+
+.phone-number,
+.email-address {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.request-text {
+    color: #22C5BB;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}

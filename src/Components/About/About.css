@@ -1,0 +1,56 @@
+.about-container {
+    width: 62%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 170px;
+}
+
+.about-we {
+    width: 40%;
+}
+
+.about-we h1 {
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    padding-bottom: 20px;
+}
+
+.company-info {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.about-we div {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.about-we p {
+    border-top: 0.5px solid #C4C4C4;
+    padding: 25px 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.about-we .active {
+    border: 0;
+    color: #22C5BB;
+}
+
+.company-info h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+    margin-bottom: 20px;
+}
+
+.company-info p {
+    color: #62698F;
+    font-weight: 300;
+    font-size: 18px;
+}
